@@ -1,9 +1,10 @@
 # covid-visualisations
 
-## Project setup
-```
-npm install
-```
+A companion repository for my "Building an animated COVID-19 tracker using Vue.js" article.
+
+To set it up, run `npm install` and then `npm run get-data`.
+
+Then, the normal vue-cli instructions apply:
 
 ### Compiles and hot-reloads for development
 ```

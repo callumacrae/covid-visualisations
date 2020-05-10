@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "get-data": "node ./data/get-data",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "gsap": "^3.2.6",
+    "vue": "^2.6.11",
+    "vue-slider-component": "^3.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.3.0",
@@ -17,9 +20,11 @@
     "@vue/cli-service": "^4.3.0",
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
+    "csv-parse": "^4.8.8",
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^6.2.2",
+    "got": "^10.7.0",
     "prettier": "^1.19.1",
     "vue-template-compiler": "^2.6.11"
   }
